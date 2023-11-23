@@ -1,0 +1,21 @@
+Установить пакеты
+pip install django
+
+pip install django-bootstrap4
+pip install django-allauth
+pip install django-ckeditor
+pip install celery
+pip install redis
+#pip install djangorestframework
+Django
+redis-server /usr/local/etc/redis.conf (Запустить сервер)
+Установить поддержку Redis в Celery
+pip install -U "celery[redis]"
+
+celery -A имяпроекта worker -l INFO -B // - команда запуска Celery
+
+python manage.py runserver //Запустить сервер приложения Django
+
+пользователь администратор
+admin
+admin
